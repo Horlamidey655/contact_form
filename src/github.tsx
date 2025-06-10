@@ -43,7 +43,7 @@ const Github = () => {
       }
     };
     getData();
-  }, [search, sort, order, page]);
+  }, [search, sort, order, page, url]);
 
   const submitHandler = (data: SubmitProp) => {
     console.log("submit");

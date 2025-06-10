@@ -6,7 +6,7 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
-import Home from "./home";
+import Home from "./Home";
 import Contact from "./contact";
 import Github from "./github";
 
